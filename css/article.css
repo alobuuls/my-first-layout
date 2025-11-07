@@ -1,0 +1,42 @@
+/* Article */
+.ctn-articles {
+  align-items: stretch;
+  background-color: var(--bg-secondary);
+  padding-block: var(--pdg-section-y);
+  gap: 4rem;
+}
+
+.ctn-articles article {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: flex-start;
+  max-width: 20rem;
+  width: 90%;
+}
+
+.ctn-articles .icon-article {
+  font-size: 5rem;
+}
+
+.ctn-articles p {
+  color: var(--bg-primary-emphasis);
+  line-height: 2rem;
+  margin-block: 1.5rem;
+}
+
+.btn-article {
+  color: var(--bg-secondary-emphasis);
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-inline: auto;
+  margin-top: auto;
+  white-space: nowrap;
+}
+
+.ctn-articles .icon-btn-article {
+  font-size: 1.25rem;
+  margin-left: 0.25rem;
+  transform: translateY(2px);
+}

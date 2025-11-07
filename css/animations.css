@@ -1,0 +1,5 @@
+@keyframes jump {
+  to {
+    transform: translateY(100%);
+  }
+}

@@ -1,0 +1,33 @@
+/* Footer */
+.ctn-footer {
+  background-color: var(--bg-secondary);
+  color: var(--bg-primary);
+  flex-direction: column;
+  padding-block: 100px var(--pdg-section-y);
+}
+
+.ctn-footer h1 {
+  font-size: 3rem;
+}
+
+.ctn-footer nav {
+  margin-block: 4rem 3rem;
+}
+
+.ctn-footer nav ul {
+  gap: 1rem;
+}
+
+.ctn-footer nav ul li a {
+  font-size: 1.25rem;
+  color: var(--bg-secondary-emphasis);
+  text-decoration: underline;
+}
+
+.ctn-footer p {
+  color: var(--bg-secondary-emphasis);
+}
+
+.ctn-footer p a {
+  color: var(--bg-primary-emphasis);
+}

@@ -1,0 +1,51 @@
+/* Laptop */
+@media screen and (max-width: 990px) {
+  :root {
+    --pdg-section-y: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fixed-btn {
+    display: none; 
+  }
+
+  .ctn-menu {
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .ctn-menu nav {
+    margin-top: 1.5rem;
+  }
+
+  .ctn-footer .btn-mobile-book {
+    display: block;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 550px) {
+  .ctn-menu nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .banner button {
+    padding: 1rem 3rem;
+  }
+
+  .carousel div {
+    padding: 1.5rem 3rem;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .fixed-btn {
+    display: none; 
+  }
+  
+  .ctn-footer .btn-mobile-book {
+    display: block;
+  }
+}

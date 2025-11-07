@@ -1,0 +1,17 @@
+/* Header */
+.ctn-menu {
+  color: var(--bg-primary);
+  justify-content: space-around;
+  padding-block: 2rem;
+}
+
+.ctn-menu h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.ctn-menu nav ul {
+  color: var(--bg-secondary-emphasis);
+  column-gap: 2rem;
+  font-size: 1.75rem;
+}

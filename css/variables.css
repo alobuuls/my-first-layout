@@ -1,0 +1,12 @@
+:root {
+  color-scheme: light dark;
+
+  /* Palette Colors */
+  --bg-primary: light-dark(#E65100, #E65100);
+  --bg-primary-emphasis: light-dark(#FFE0B2, #FFE0B2);
+  --bg-secondary: light-dark(#0097A7, #0b646e);
+  --bg-secondary-emphasis: light-dark(#2f3f41, #B2EBF2);
+
+  /* Space between sections */
+  --pdg-section-y: 150px;
+}

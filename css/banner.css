@@ -1,0 +1,45 @@
+/* Banner */
+.banner:before {
+  background: url('../img/banner.jpg') no-repeat center / cover fixed;
+  content: '';
+  filter: brightness(0.6);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.banner {
+  flex-direction: column;
+  height: 72.5dvh;
+  position: relative;
+}
+
+.banner h1 {
+  font-size: clamp(2.5rem, calc(5vw + 2rem), 7rem);
+  letter-spacing: 2px;
+  margin-bottom: 6rem;
+  text-shadow: 0 0 4px #000;
+  color: #fff;
+}
+
+.banner h1 strong {
+  color: var(--bg-primary);
+  font-weight: 400;
+}
+
+.banner button {
+  background-color: var(--bg-primary);
+  border-radius: 3rem;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-inline: auto;
+  padding: 1rem 5rem;
+  white-space: nowrap;
+}
+
+.banner button span {
+  margin-left: 0.25rem;
+  transform: translateY(3px);
+}
